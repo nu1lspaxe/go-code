@@ -55,7 +55,7 @@ type NumArray struct {
 	segTree []int
 }
 
-func Constructor(nums []int) NumArray {
+func Constructor_307(nums []int) NumArray {
 	n := len(nums)
 	segTree := make([]int, n*2)
 	// 1. Store the nodes to the leaves
